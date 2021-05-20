@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="map" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XQ1-Bc-qTG">
+                                <rect key="frame" x="0.0" y="89" width="414" height="807"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="H7Q-jX-n1o"/>
+                                </connections>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDp-qL-B4U">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" red="0.45809477570000001" green="0.76443916560000003" blue="0.27438217399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.45809477570000001" green="0.76443916560000003" blue="0.27438217399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.45809477570000001" green="0.76443916560000003" blue="0.27438217399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="Odg-qE-Ab2"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.45809477570000001" green="0.76443916560000003" blue="0.27438217399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VDp-qL-B4U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ALU-zL-dBf"/>
+                            <constraint firstAttribute="bottom" secondItem="XQ1-Bc-qTG" secondAttribute="bottom" id="F45-o5-Mc0"/>
+                            <constraint firstItem="XQ1-Bc-qTG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fAP-hh-eUn"/>
+                            <constraint firstItem="XQ1-Bc-qTG" firstAttribute="top" secondItem="VDp-qL-B4U" secondAttribute="bottom" constant="1" id="gqE-9k-FaU"/>
+                            <constraint firstItem="VDp-qL-B4U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jh9-Y6-euz"/>
+                            <constraint firstItem="XQ1-Bc-qTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q9G-ft-uuT"/>
+                            <constraint firstItem="VDp-qL-B4U" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wYc-8b-AXN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="XQ1-Bc-qTG" id="jNv-n2-bJb"/>
+                        <outlet property="topBarTitle" destination="Odg-qE-Ab2" id="QW1-b8-poL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
+        </scene>
+    </scenes>
+</document>

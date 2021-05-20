@@ -1,0 +1,31 @@
+{
+    "city": "Lyon",
+    "is_online": true,
+    "distance": 2144,
+    "locations": [{
+            "name": "Basilique de Fourvière",
+            "latitude": 45.762266,
+            "longitude": 4.821938
+        },
+        {
+            "name": "Place Bellecour",
+            "latitude": 45.757841,
+            "longitude": 4.831529
+        },
+        {
+            "name": "Place des Terreaux",
+            "latitude": 45.767456,
+            "longitude": 4.833714
+        },
+        {
+            "name": "Place des Jacobins",
+            "latitude": 45.760405,
+            "longitude": 4.833612
+        },
+        {
+            "name": "Opéra",
+            "latitude": 45.767899,
+            "longitude": 4.836651
+        }
+    ]
+}
