@@ -19,17 +19,15 @@
 		CE8FDDBF2655C63800AA90EF /* HttpEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDBE2655C63800AA90EF /* HttpEngine.swift */; };
 		CE8FDDC22655C65D00AA90EF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDC12655C65D00AA90EF /* Logger.swift */; };
 		CE8FDDC52655C67C00AA90EF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDC42655C67C00AA90EF /* NetworkError.swift */; };
-		CE8FDDDB2656730F00AA90EF /* mapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDDA2656730F00AA90EF /* mapTests.swift */; };
-		CE8FDDE72656735A00AA90EF /* CityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDB52655C54C00AA90EF /* CityInfo.swift */; };
-		CE8FDDEA2656736D00AA90EF /* CityServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDCD2656726D00AA90EF /* CityServiceTest.swift */; };
-		CE8FDDF2265673DA00AA90EF /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDF1265673DA00AA90EF /* URLSessionFake.swift */; };
-		CE8FDDF82656741200AA90EF /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDF72656741200AA90EF /* FakeResponseData.swift */; };
-		CE8FDDFC2656744D00AA90EF /* HttpEngineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDFB2656744D00AA90EF /* HttpEngineTest.swift */; };
-		CE8FDE022656754F00AA90EF /* CityInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8FDE012656754F00AA90EF /* CityInfo.json */; };
+		CE8FDE4E2656862C00AA90EF /* CityServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDCD2656726D00AA90EF /* CityServiceTest.swift */; };
+		CE8FDE512656863000AA90EF /* HttpEngineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDFB2656744D00AA90EF /* HttpEngineTest.swift */; };
+		CE8FDE542656863300AA90EF /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDF72656741200AA90EF /* FakeResponseData.swift */; };
+		CE8FDE572656863600AA90EF /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FDDF1265673DA00AA90EF /* URLSessionFake.swift */; };
+		CE8FDE5A2656865E00AA90EF /* CityInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8FDE012656754F00AA90EF /* CityInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE8FDDDD2656730F00AA90EF /* PBXContainerItemProxy */ = {
+		CE8FDE1126567BF700AA90EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE8FDD812655AC6300AA90EF /* Project object */;
 			proxyType = 1;
@@ -54,13 +52,12 @@
 		CE8FDDC12655C65D00AA90EF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		CE8FDDC42655C67C00AA90EF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		CE8FDDCD2656726D00AA90EF /* CityServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityServiceTest.swift; sourceTree = "<group>"; };
-		CE8FDDD82656730F00AA90EF /* mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8FDDDA2656730F00AA90EF /* mapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapTests.swift; sourceTree = "<group>"; };
-		CE8FDDDC2656730F00AA90EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8FDDF1265673DA00AA90EF /* URLSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
 		CE8FDDF72656741200AA90EF /* FakeResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		CE8FDDFB2656744D00AA90EF /* HttpEngineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpEngineTest.swift; sourceTree = "<group>"; };
 		CE8FDE012656754F00AA90EF /* CityInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CityInfo.json; sourceTree = "<group>"; };
+		CE8FDE0C26567BF700AA90EF /* mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8FDE1026567BF700AA90EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/adammabrouki/Desktop/CityApplication/map/test/Info.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +68,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE8FDDD52656730F00AA90EF /* Frameworks */ = {
+		CE8FDE0926567BF700AA90EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,7 +83,6 @@
 			children = (
 				CE8FDD8B2655AC6400AA90EF /* map */,
 				CE8FDDD12656728C00AA90EF /* test */,
-				CE8FDDD92656730F00AA90EF /* mapTests */,
 				CE8FDD8A2655AC6400AA90EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8FDD892655AC6400AA90EF /* map.app */,
-				CE8FDDD82656730F00AA90EF /* mapTests.xctest */,
+				CE8FDE0C26567BF700AA90EF /* mapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,17 +148,9 @@
 				CE8FDDFB2656744D00AA90EF /* HttpEngineTest.swift */,
 				CE8FDDCD2656726D00AA90EF /* CityServiceTest.swift */,
 				CE8FDE012656754F00AA90EF /* CityInfo.json */,
+				CE8FDE1026567BF700AA90EF /* Info.plist */,
 			);
 			path = test;
-			sourceTree = "<group>";
-		};
-		CE8FDDD92656730F00AA90EF /* mapTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE8FDDDA2656730F00AA90EF /* mapTests.swift */,
-				CE8FDDDC2656730F00AA90EF /* Info.plist */,
-			);
-			path = mapTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,22 +173,22 @@
 			productReference = CE8FDD892655AC6400AA90EF /* map.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE8FDDD72656730F00AA90EF /* mapTests */ = {
+		CE8FDE0B26567BF700AA90EF /* mapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8FDDDF2656730F00AA90EF /* Build configuration list for PBXNativeTarget "mapTests" */;
+			buildConfigurationList = CE8FDE1326567BF700AA90EF /* Build configuration list for PBXNativeTarget "mapTests" */;
 			buildPhases = (
-				CE8FDDD42656730F00AA90EF /* Sources */,
-				CE8FDDD52656730F00AA90EF /* Frameworks */,
-				CE8FDDD62656730F00AA90EF /* Resources */,
+				CE8FDE0826567BF700AA90EF /* Sources */,
+				CE8FDE0926567BF700AA90EF /* Frameworks */,
+				CE8FDE0A26567BF700AA90EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE8FDDDE2656730F00AA90EF /* PBXTargetDependency */,
+				CE8FDE1226567BF700AA90EF /* PBXTargetDependency */,
 			);
 			name = mapTests;
 			productName = mapTests;
-			productReference = CE8FDDD82656730F00AA90EF /* mapTests.xctest */;
+			productReference = CE8FDE0C26567BF700AA90EF /* mapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +203,7 @@
 					CE8FDD882655AC6300AA90EF = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					CE8FDDD72656730F00AA90EF = {
+					CE8FDE0B26567BF700AA90EF = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = CE8FDD882655AC6300AA90EF;
 					};
@@ -235,7 +223,7 @@
 			projectRoot = "";
 			targets = (
 				CE8FDD882655AC6300AA90EF /* map */,
-				CE8FDDD72656730F00AA90EF /* mapTests */,
+				CE8FDE0B26567BF700AA90EF /* mapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,11 +239,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE8FDDD62656730F00AA90EF /* Resources */ = {
+		CE8FDE0A26567BF700AA90EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8FDE022656754F00AA90EF /* CityInfo.json in Resources */,
+				CE8FDE5A2656865E00AA90EF /* CityInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,26 +266,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE8FDDD42656730F00AA90EF /* Sources */ = {
+		CE8FDE0826567BF700AA90EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8FDDDB2656730F00AA90EF /* mapTests.swift in Sources */,
-				CE8FDDF2265673DA00AA90EF /* URLSessionFake.swift in Sources */,
-				CE8FDDF82656741200AA90EF /* FakeResponseData.swift in Sources */,
-				CE8FDDFC2656744D00AA90EF /* HttpEngineTest.swift in Sources */,
-				CE8FDDE72656735A00AA90EF /* CityInfo.swift in Sources */,
-				CE8FDDEA2656736D00AA90EF /* CityServiceTest.swift in Sources */,
+				CE8FDE4E2656862C00AA90EF /* CityServiceTest.swift in Sources */,
+				CE8FDE572656863600AA90EF /* URLSessionFake.swift in Sources */,
+				CE8FDE512656863000AA90EF /* HttpEngineTest.swift in Sources */,
+				CE8FDE542656863300AA90EF /* FakeResponseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE8FDDDE2656730F00AA90EF /* PBXTargetDependency */ = {
+		CE8FDE1226567BF700AA90EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE8FDD882655AC6300AA90EF /* map */;
-			targetProxy = CE8FDDDD2656730F00AA90EF /* PBXContainerItemProxy */;
+			targetProxy = CE8FDE1126567BF700AA90EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -475,13 +461,13 @@
 			};
 			name = Release;
 		};
-		CE8FDDE02656730F00AA90EF /* Debug */ = {
+		CE8FDE1426567BF700AA90EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NYLP3F6GN;
-				INFOPLIST_FILE = mapTests/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,13 +481,13 @@
 			};
 			name = Debug;
 		};
-		CE8FDDE12656730F00AA90EF /* Release */ = {
+		CE8FDE1526567BF700AA90EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NYLP3F6GN;
-				INFOPLIST_FILE = mapTests/Info.plist;
+				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,11 +522,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8FDDDF2656730F00AA90EF /* Build configuration list for PBXNativeTarget "mapTests" */ = {
+		CE8FDE1326567BF700AA90EF /* Build configuration list for PBXNativeTarget "mapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8FDDE02656730F00AA90EF /* Debug */,
-				CE8FDDE12656730F00AA90EF /* Release */,
+				CE8FDE1426567BF700AA90EF /* Debug */,
+				CE8FDE1526567BF700AA90EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

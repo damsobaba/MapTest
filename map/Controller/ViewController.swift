@@ -53,6 +53,7 @@ final class ViewController: UIViewController {
 }
 
 extension ViewController: MKMapViewDelegate {
+    //to add custom color annotation
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: "MyMarker")
         annotationView.markerTintColor = UIColor.green
